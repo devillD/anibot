@@ -39,7 +39,7 @@
             "description":"Get from https://anilist.co/settings/developer"
         },
         "ANILIST_REDIRECT_URL": {
-            "description":"If you don't wish to change auth method, just leave it that way",
+            "description":"If you don't wish to change auth method, just leave it that way. With your server: <base url>/auth",
             "required":false
         },
         "TRIGGERS":{
