@@ -2,7 +2,7 @@ from flask import Flask, request, redirect
 import os
 from pymongo import MongoClient as MC
 
-D = os.environ.get('DB_URL')
+D = os.environ.get('DATABASE_URL')
 BOT = os.environ.get('BOT_NAME')
 c = MC(D)['anibot']
 AUTH_USERS = c.get_collection('AUTH_USERS')
