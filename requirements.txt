@@ -1,7 +1,6 @@
 pyrogram
 tgcrypto
 requests
-aiohttp
 aiohttp[speedups]>=3.7.3
 tracemoepy
 lottie
@@ -13,3 +12,6 @@ natsort
 apscheduler
 lxml
 html5lib
+flask
+gunicorn
+pymongo
