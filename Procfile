@@ -1,1 +1,1 @@
-worker: python3 -m anibot
+web: gunicorn server:app && python3 -m anibot
